@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+  <form id="MainMenu">
+    <field name="Start">
+      <prompt>
+        Wybrałeś opcję informacje o kinie.
+		Kino znajduje się na ulicy Warszawskiej 15 w Warszawie. Jest otwarte w godzinach dziesiąta - dwudziesta pierwsza. 
+		Kino składa się z dwóch klimatyzowanych sal, które pomieszczą 50 widzów.
+		Numer telefonu do kina to: dwadzieścia dwa, sto, sto, sto. Przy kinie znajdują się bezpłatne parkingi samochodowe.
+		Do zobaczenia.
+      </prompt>
+	  <exit/>
+	 </field>
+  </form>
+</vxml>

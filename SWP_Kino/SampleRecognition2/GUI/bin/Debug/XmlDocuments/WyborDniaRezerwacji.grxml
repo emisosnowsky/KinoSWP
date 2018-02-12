@@ -1,0 +1,19 @@
+<grammar version="1.0" xml:lang="pl-PL" mode="voice" root="WyborDniaRezerwacji" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="WyborDniaRezerwacji" scope="public">
+<item>
+<one-of>
+<item>Na Jutro<tag> out="Jutro" </tag> </item>
+<item>Jutro<tag> out="Jutro" </tag> </item>
+<item>Na Dzisiaj<tag> out="Dzisiaj" </tag> </item>
+<item>Dzisiaj<tag> out="Dzisiaj" </tag> </item>
+<item>Na Pojutrze<tag> out="Pojutrze" </tag> </item>
+<item>Pojutrze<tag> out="Pojutrze" </tag> </item>
+<item>Zakończ<tag> out="Koniec" </tag> </item>
+<item>Zakończyć<tag> out="Koniec" </tag> </item>
+<item>Zamknij<tag> out="Koniec" </tag> </item> 
+<item>Zamknąć<tag> out="Koniec" </tag> </item>
+<item>Koniec<tag> out="Koniec" </tag> </item>
+</one-of>
+</item>
+</rule>
+</grammar>

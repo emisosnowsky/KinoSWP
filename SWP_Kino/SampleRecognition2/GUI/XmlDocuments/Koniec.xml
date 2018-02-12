@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+  <form id="MainKoniec">
+    <field name="Koniec">
+      <prompt>
+        Wybrałeś opcję zakończ. Do zobaczenia.
+      </prompt>
+      <exit/> 
+    </field>
+  </form>
+</vxml>

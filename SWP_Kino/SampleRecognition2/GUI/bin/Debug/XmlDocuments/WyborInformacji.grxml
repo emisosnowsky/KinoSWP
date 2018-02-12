@@ -1,0 +1,22 @@
+<grammar version="1.0" xml:lang="pl-PL" mode="voice" root="WyborInformacji" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="WyborInformacji" scope="public">
+<item>
+<one-of>
+<item>Informacje o zniżkach<tag> out="Informacje o zniżkach" </tag> </item>
+<item>Zniżki<tag> out="Informacje o zniżkach" </tag> </item>
+<item>O zniżkach<tag> out="Informacje o zniżkach" </tag> </item>
+<item>Informacje o kinie<tag> out="Informacje o kinie" </tag> </item>
+<item>Kino<tag> out="Informacje o kinie" </tag> </item>
+<item>O Kinie<tag> out="Informacje o kinie" </tag> </item>
+<item>Informacje o repertuarze<tag> out="Informacje o repertuarze" </tag> </item>
+<item>Repertuar<tag> out="Informacje o repertuarze" </tag> </item>
+<item>O Repertuarze<tag> out="Informacje o repertuarze" </tag> </item>
+<item>Zakończ<tag> out="Koniec" </tag> </item>
+<item>Zakończyć<tag> out="Koniec" </tag> </item>
+<item>Zamknij<tag> out="Koniec" </tag> </item> 
+<item>Zamknąć<tag> out="Koniec" </tag> </item>
+<item>Koniec<tag> out="Koniec" </tag> </item>
+</one-of>
+</item>
+</rule>
+</grammar>

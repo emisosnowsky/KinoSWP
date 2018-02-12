@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+  <form id="MainMenu">
+    <field name="Start">
+      <prompt>
+        Wybrałeś opcję informacje o zniżkach.
+		Zniżka studencka przysługuje osobie posiadającej legitymację studencką i wynosi 20 procent od ceny biletu.
+		Zniżka grupowa przysługuje grupie 10 osobowej i wynosi 15 procent od każdego biletu. 
+		Do zobaczenia.
+      </prompt>
+	  <exit/>
+	 </field>
+  </form>
+</vxml>

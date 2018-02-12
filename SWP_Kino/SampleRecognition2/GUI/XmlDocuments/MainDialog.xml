@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+      <form id="MainMenu">
+        <field name="Start">
+             <prompt>Witamy w naszym kinie. Chcesz dokonać rezerwacji, uzyskać informacje czy zakończyć działanie programu?
+             </prompt>
+          <nomatch>
+            <prompt>Nie rozpoznano wyboru, proszę spróbować ponownie.</prompt>
+            <reprompt />
+          </nomatch>
+          <noinput>
+            <prompt>Nie usłyszano wyboru, proszę spróbować ponownie.</prompt>
+            <reprompt />
+          </noinput>
+          <grammar src="XmlDocuments\MainGramatyka.grxml"/>
+              <filled>
+                <if cond="Start == 'Dokonać rezerwacji'">
+                    <goto next="XmlDocuments\CzasRezerwacji.xml"/>
+                    <elseif cond="Start == 'Uzyskać informacje'"/>
+                      <goto next="XmlDocuments\Informacja.xml"/>
+                    <elseif cond="Start == 'Koniec'"/>
+                      <goto next="XmlDocuments\Koniec.xml" />
+                </if>
+            </filled>
+        </field>
+     </form>
+</vxml>

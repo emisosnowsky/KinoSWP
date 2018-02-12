@@ -1,0 +1,17 @@
+<grammar version="1.0" xml:lang="pl-PL" mode="voice" root="WyborDzialania" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+<rule id="WyborDzialania" scope="public">
+<item>
+<one-of>
+<item>Uzyskać informacje<tag> out="Uzyskać informacje" </tag> </item>
+<item>Informacje <tag> out="Uzyskać informacje" </tag> </item>
+<item>Dokonać rezerwacji<tag> out="Dokonać rezerwacji" </tag> </item>
+<item>Rezerwacja<tag> out="Dokonać rezerwacji" </tag> </item>
+<item>Zakończ<tag> out="Koniec" </tag> </item>
+<item>Zakończyć<tag> out="Koniec" </tag> </item>
+<item>Zamknij<tag> out="Koniec" </tag> </item> 
+<item>Zamknąć<tag> out="Koniec" </tag> </item>
+<item>Koniec<tag> out="Koniec" </tag> </item>
+</one-of>
+</item>
+</rule>
+</grammar>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+  <form id="MainMenu">
+    <field name="LiczbaBiletow">
+      <prompt>
+        Ile biletów chciałbyś zarezerwować?
+      </prompt>
+	  <nomatch>
+        <prompt>Nie rozpoznano wyboru, proszę spróbować ponownie.</prompt>
+        <reprompt />
+      </nomatch>
+      <noinput>
+        <prompt>Nie usłyszano wyboru, proszę spróbować ponownie.</prompt>
+        <reprompt />
+      </noinput>
+	  <grammar src="XmlDocuments\WyborIlosciRezerwacji.grxml" />
+		  <filled>
+			<if cond="LiczbaBiletow == '1'">
+			  <goto next="XmlDocuments\WynikRezerwacji.xml"/>
+			  <elseif cond="LiczbaBiletow == '2'"/>
+			  <goto next="XmlDocuments\WynikRezerwacji.xml"/>         
+			  <elseif cond="LiczbaBiletow == '3'"/>
+			  <goto next="XmlDocuments\WynikRezerwacji.xml"/>     
+			  <elseif cond="LiczbaBiletow == '4'"/>
+			  <goto next="XmlDocuments\WynikRezerwacji.xml"/>     
+			  <elseif cond="LiczbaBiletow == '5'"/>
+			  <goto next="XmlDocuments\WynikRezerwacji.xml"/>     			  
+			  <elseif cond="LiczbaBiletow == 'Koniec'"/>
+                <goto next="XmlDocuments\Koniec.xml" />
+			</if>
+		  </filled>
+	 </field>
+  </form>
+</vxml>

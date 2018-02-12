@@ -1,0 +1,8 @@
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\bin\Debug\Database.pdb
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\bin\Debug\Microsoft.Speech.dll
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\bin\Debug\MySql.Data.dll
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\obj\Debug\Database.dll
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\obj\Debug\Database.pdb
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\bin\Debug\Database.dll
+C:\Users\Emilia\Downloads\SWP_Kino\SWP_Kino\SampleRecognition2\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache

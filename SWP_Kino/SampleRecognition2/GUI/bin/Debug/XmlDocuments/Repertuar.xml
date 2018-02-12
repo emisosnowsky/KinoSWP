@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+  <form id="Repertuar">
+    <field name="Repertuar">
+      <prompt>
+        Wybrałeś opcję informacje o repertuarze.
+      </prompt>
+	  <exit/>
+	 </field>
+  </form>
+</vxml>

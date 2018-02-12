@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xml:lang="pl-pl">
+  <form id="MainMenu">
+    <field name="RezerwacjaFilm">
+      <prompt>
+			Na jaki film chcesz zarezerwować bilet? 
+      </prompt>
+	  <nomatch>
+        <prompt>Nie rozpoznano wyboru, proszę spróbować ponownie.</prompt>
+        <reprompt />
+      </nomatch>
+      <noinput>
+        <prompt>Nie usłyszano wyboru, proszę spróbować ponownie.</prompt>
+        <reprompt />
+      </noinput>
+	  <grammar src="XmlDocuments\WyborFilmu.grxml" />
+		  <filled>
+			<if cond="RezerwacjaFilm == '1'">
+			  <goto next="XmlDocuments\LiczbaBiletow.xml"/>
+			  <elseif cond="RezerwacjaFilm == '2'"/>
+			  <goto next="XmlDocuments\LiczbaBiletow.xml"/>  
+			  <elseif cond="RezerwacjaFilm == '3'"/>
+			  <goto next="XmlDocuments\LiczbaBiletow.xml"/>  
+			  <elseif cond="RezerwacjaFilm == 'Koniec'"/>
+                <goto next="XmlDocuments\Koniec.xml" />
+             </if>
+		  </filled>
+	 </field>
+  </form>
+ </vxml>
